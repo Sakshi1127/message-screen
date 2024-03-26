@@ -2,6 +2,11 @@
     margin:0;
     padding: 0;
 }
+body, html {
+    overflow-x: hidden;
+  }
+
+
 .nav_bar{
     height:78px;
     background-color: #3182CE;
@@ -574,3 +579,116 @@ margin-left: 15px;
     margin-top: 7px;
     margin-left: 8px;
   }
+
+  @media screen and (max-width:2000px){
+    .nav_logo img{
+        width:155.06px;
+    }
+}
+
+
+@media screen and (max-width:1334px){
+    .nav_search{
+        display: none;
+    }
+    
+    .nav_logo img{
+        width:80px;
+        height:40px
+    }
+    .page_body1{
+        width:30%
+    }
+   .page_body3{
+     display: none;
+   }
+   .page_body2{
+    width:70%;
+   }
+   
+    
+}
+
+@media screen and (max-width:1150px){
+    .nav_search{
+        display: none;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .nav_logo img{
+        width:80px;
+        height:40px
+    }
+    .page_body1{
+        display:none
+    }   
+}
+
+@media screen and (max-width:650px){ 
+    .nav_logo img{
+        width:80px;
+        height:40px
+    }
+    .nav_button{ 
+      margin-left: 60px;
+    }
+    .nav_profile .fa-bell {
+        margin-left: 10px;
+    }
+    
+    .nav_profile img {
+        margin-left: 10px !important;
+        width: 25px; 
+        height: 25px; 
+    }
+    .page_body2_heading{
+        display: flex;
+    }
+    .page_body2_heading_p2{
+       font-size: 14px;
+        margin-left: 45px
+    }
+.page_body2_belowHeading p {
+    font-size: 12px;
+    margin-left: 7px;
+}
+.page_body2_belowHeading i {
+    font-size: 11px;
+}
+
+    .page_body2_message1 img{
+        width:25px;
+        height:25px;
+    }
+    .page_body2_message11 {
+      width:100%;
+    
+    }
+    .page_body2_message11 p{
+        font-size: 10px;
+    }
+    .page_body2_message12{
+        margin-left: -150px;
+
+    }
+    .page_body2_message12 p{
+        font-size:9px;
+       
+    }
+    
+    .page_body2_message2 img{
+        width:25px;
+        height:25px;
+    }
+    .page_body2_message21 {
+        width:100%;
+      }
+      .page_body2_message21 p{
+        font-size: 10px;
+      }
+      .page_body2_message3{
+       display:none;
+      }
+      
+}
