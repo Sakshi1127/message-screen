@@ -348,6 +348,19 @@ body, html {
     margin-left: 60px;
     background-color:  #FCFBFB;
   }
+  .page_body2_message31{
+    width:147px;
+    height:22px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-left: 60px;
+    background-color:  #FCFBFB;
+  }
+  .page_body2_message31  p{
+    font-size: 12px;
+   padding-top: 4px;
+    margin-left: 10px;
+  }
   .page_body2_message3 p{
     font-size: 12px;
    padding-top: 4px;
@@ -628,7 +641,7 @@ margin-left: 15px;
 
 @media screen and (max-width:650px){ 
     .nav_logo img {
-        width: 118px;
+        width:87px;
         height: 49px;
         margin-top: 13px;
         margin-left: 27%;
@@ -650,37 +663,54 @@ margin-left: 15px;
         display: flex;
         flex-direction: column;
     }
-   .page_body2_heading_p2 {
-    margin-left: 26%;
-    margin-top: 1%;
-}
+    .page_body2_belowHeading {
+        display: flex;
+        margin-left: 10%;
+        margin-top: 2.5%;
+    }
+    .page_body2_message3 {
+        margin-top: 40px;
+    }
+    .page_body2_heading_p2 {
+        margin-left: 27%;
+        margin-top: 4%;
+        font-size: 96%;
+    }
 .page_body2_heading img {
     border-radius: 50%;
     width: 10%;
     height: 2%;
 }
 .page_body2_message21 {
-    width: 287px;
+    width: 265px;
     height: 143px;
     border-radius: 4px;
     margin-left: 6px;
     background-color: #FCFBFB;
 }
 .page_body2_message3 {
-    margin-top:25px;
+    margin-top:40px;
 }
 .page_body2_message3 p {
     font-size: 12px;
     padding-top: 4px;
     margin-left: -19px;
 }
+.page_body2_message31 {
+    width: 171px;
+    height: 22px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-left: 37px;
+    background-color: #FCFBFB;
+}
 .page_body2_messagetoday {
-    margin-left:278px;
+    margin-left:215px;
     
 }
 .page_body2_message41 {
-    width: 302px;
-    height: 60px; 
+    width: 232px;
+    height: 73px;
 }
 .text_field {
     width: 343px;
@@ -691,7 +721,7 @@ margin-left: 15px;
     margin-top: 7px;
 }
 .text_field1 {
-    margin-left:163px;
+    margin-left:103px;
     margin-top: 6px;
 }
 .text_send {
