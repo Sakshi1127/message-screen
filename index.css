@@ -631,6 +631,7 @@ margin-left: 15px;
         width: 118px;
         height: 49px;
         margin-top: 13px;
+        margin-left: 27%;
     }
     .nav_button{ 
       margin-left: 60px;
@@ -654,7 +655,7 @@ margin-left: 15px;
     margin-top: 1%;
 }
 .page_body2_message21 {
-    width: 373px;
+    width: 326px;
     height: 143px;
     border-radius: 4px;
     margin-left: 6px;
@@ -666,11 +667,11 @@ margin-left: 15px;
     margin-left: -19px;
 }
 .page_body2_messagetoday {
-    margin-left: 327px;
+    margin-left:278px;
     
 }
 .page_body2_message41 {
-    width: 350px;
+    width: 302px;
     height: 60px; 
 }
 .text_field {
@@ -682,14 +683,23 @@ margin-left: 15px;
     margin-top: 7px;
 }
 .text_field1 {
-    margin-left: 202px;
+    margin-left:163px;
     margin-top: 6px;
+}
+.text_send {
+    width: 40px;
+    height: 31px;
+    margin-left: 6px;
+    margin-top: 92px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #00B1EB;
 }
  .page_body2_heading_p1{
     margin-top: 7px;
  }
  .page_body3{
-    margin-left: 42px;
+    margin-left: 4% !important
  }
       
 }
