@@ -681,8 +681,14 @@ margin-left: 15px;
     width: 10%;
     height: 2%;
 }
+.page_body2_message11 {
+    width: 84%;
+    border-radius: 4px;
+    margin-left: 1%;
+    background-color: #FCFBFB;
+}
 .page_body2_message21 {
-    width:326px;
+    width:317px;
     height: 143px;
     border-radius: 4px;
     
@@ -690,6 +696,7 @@ margin-left: 15px;
     background-color: #FCFBFB;
 }
 .page_body2_message3 {
+    width: 130px;
     margin-top:40px;
 }
 .page_body2_message3 p {
@@ -697,12 +704,17 @@ margin-left: 15px;
     padding-top: 4px;
     margin-left: -19px;
 }
+.page_body2_message4 img {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
 .page_body2_message31 {
-    width: 171px;
+    width: 130px;
     height: 22px;
     border-radius: 4px;
     margin-top: 6px;
-    margin-left: 37px;
+    margin-left: 32px;
     background-color: #FCFBFB;
 }
 .page_body2_messagetoday {
@@ -710,7 +722,7 @@ margin-left: 15px;
     
 }
 .page_body2_message41 {
-    width: 232px;
+    width: 301px;
     height: 73px;
 }
 .text_field {
@@ -722,15 +734,15 @@ margin-left: 15px;
     margin-top: 7px;
 }
 .text_field1 {
-    margin-left:103px;
+    margin-left:54%;
     margin-top: 6px;
 }
 .text_send {
-    width: 40px;
+    width: 34px;
     height: 31px;
     margin-left: 6px;
     margin-top: 92px;
-    margin-right: 10px;
+    margin-right:9px;
     border-radius: 5px;
     background-color: #00B1EB;
 }
